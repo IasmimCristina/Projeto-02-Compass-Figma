@@ -6,6 +6,7 @@
 html {
     font-size: 62.5%;
 }
+
 /* Page 01*/
 body {
     font-family: 'Roboto', sans-serif;
@@ -13,7 +14,7 @@ body {
 }
 
 .logo {
-    display: flex;    
+    display: flex;
     justify-content: center;
     height: 100vh;
 }
@@ -21,27 +22,76 @@ body {
 .logo img {
     width: 35%;
 }
+
 /*Page 02*/
-.container-top-screen  {
+.container-top-screen {
     background-color: #FFA451;
     display: flex;
     justify-content: center;
     height: 50vh;
 }
+
 .container-top-screen img {
-    width: 70vw;
     position: absolute;
-    
-}
-#basket-fruit {
-    margin-top: 12vh;
-}
-#shadow-basket-fruit {
-    margin-top: 45vh;
-}
-#top-image-detail {
 
 }
+
+#basket-fruit {
+    width: 78vw;
+    margin-top: 13vh;
+}
+
+#shadow-basket-fruit {
+    width: 70vw;
+    margin-top: 46vh;
+}
+
+#top-image-detail {
+    width: 10vw;
+    margin-left: 30vw;
+    margin-top: 12vh;
+
+}
+
+.container-main {
+    margin: 5vh 6vw;
+}
+
+.container-main h1 {
+    font-size: 1.6rem;
+    margin-top: 7vh;
+    margin-bottom: 1vh;
+}
+
+.container-main p {
+    opacity: 0.8;
+    line-height: 3vh;
+    color: #5D577E;
+    font-weight: 100;
+    font-size: 1.6rem;
+}
+
+.container-button {
+    text-align: center;
+    margin: 15vh auto;
+}
+
+.container-button button {
+    color: #FFFF;
+    background-color: #FFA451;
+    border: #FFA451;
+    border-radius: 1.5rem;
+    padding: 2.5vh 25vw;
+    font-size: 1.8rem;
+}
+.container-button button:hover {
+    transition: 0.5s;
+    color: #db9a5e;
+    background-color: #7a4009;
+}
+
+
+
 /*Page 02*/
 /*Page 02*/
 /*Page 02*/
