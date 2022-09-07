@@ -21,6 +21,12 @@
 
 <body>
 
+    <h1> Welcome, <span id="value-fName"></span>!</h1>
+
+    <script>
+        var firstName = document.getElementById("value-fName");
+        firstName.textContent = localStorage.getItem("valuefName");
+    </script>
 </body>
 
 </html>

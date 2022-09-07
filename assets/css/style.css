@@ -73,28 +73,61 @@ body {
 
 .container-button {
     text-align: center;
-    margin: 15vh auto;
+    margin: 14vh auto 0vh;
 }
 
 .container-button button {
+    cursor: pointer;
     color: #FFFF;
     background-color: #FFA451;
     border: #FFA451;
     border-radius: 1.5rem;
     padding: 2.5vh 25vw;
     font-size: 1.8rem;
+
 }
+
 .container-button button:hover {
     transition: 0.5s;
     color: #db9a5e;
     background-color: #7a4009;
 }
 
+/*Page 03*/
+#basket-fruit-02 {
+    width: 79.5vw;
+    margin-top: 10vh;
+}
+
+.container-main-form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container-main-form label {
+    display: block;
+    color: #27214D;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 8vh 43vw 2vh 0vw;
+}
+
+.container-main-form input {
+    border-radius: 1.5rem;
+    background-color: #F7F5F5;    
+    margin-top: 1.5vh;
+    border: none;
+    cursor: pointer;
+    padding: 3.2vh 25vw;
+}
+#btn-start {
+    
+    padding: 2.5vh 25vw;
+}
 
 
-/*Page 02*/
-/*Page 02*/
-/*Page 02*/
+/*Page 04*/
+/*Page 05*/
 
 
 

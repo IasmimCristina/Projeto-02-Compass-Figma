@@ -22,7 +22,40 @@
 
 <body>
 
-    <h1>Teste</h1>
+    <header>
+        <div class="container-top-screen">
+            <img  id="top-image-detail" src="assets/images/fruit-drops2-removebg-preview 1.svg" alt="Little group of fruits.">
+            <img  id="basket-fruit-02" src="assets/images/image-page03/kisspng-fruit-basket-clip-art-5aed5301d44408 1.svg"
+                alt="Basket of fruits.">
+            <img id="shadow-basket-fruit" src="assets/images/image-page03/image0-page03-shadow.svg" alt="Shadow of the basket of fruits.">
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container-main-form">
+            <form >
+                <label for="fName">What is your first name?</label>
+                <input type="text" id="fName" name="fName">
+            </form>
+
+            <div class="container-button">
+                <button type="button" id="btn-start">Start Ordering</button>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript">
+
+        document.getElementById("fName").onkeyup = function () {
+            var firstName = document.getElementById("fName").value;
+            localStorage.setItem("valuefName", firstName);
+        }
+        document.getElementById("btn-start").onclick = function () {
+            location.href = "page04.html";
+        }
+    </script>
+    
 </body>
 
 </html>
