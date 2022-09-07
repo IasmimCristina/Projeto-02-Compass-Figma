@@ -6,7 +6,7 @@
 html {
     font-size: 62.5%;
 }
-
+/* Page 01*/
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
@@ -20,6 +20,27 @@ body {
 
 .logo img {
     width: 35%;
+}
+/*Page 02*/
+.container-top-screen  {
+    background-color: #FFA451;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+.container-top-screen img {
+    width: 70vw;
+    position: absolute;
+    
+}
+#basket-fruit {
+    margin-top: 12vh;
+}
+#shadow-basket-fruit {
+    margin-top: 45vh;
+}
+#top-image-detail {
+
 }
 
 

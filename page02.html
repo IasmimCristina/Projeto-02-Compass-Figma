@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-     <!--                  Google Fonts                -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-     <!-- -------------------------------------------- -->
+    <!--                  Google Fonts                -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- -------------------------------------------- -->
 
     <!--                 Estilização                -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -20,7 +20,34 @@
 </head>
 
 <body>
-    <h1>TELA 02</h1>
+
+    <header>
+        <div class="container-top-screen">
+            <img  id="top-image-detail" src="assets/images/fruit-drops2-removebg-preview 1.svg" alt="Little group of fruits.">
+            <img  id="basket-fruit" src="assets/images/image-page02/imgbin-basket-of-fruit-cartoon-fruits-basket-still-life-illustration-zT8c0qVNxL2hbA3BBdz73AmJr-removebg-preview (1) 1.svg"
+                alt="Basket of fruits.">
+            <img id="shadow-basket-fruit" src="assets/images/image-page02/image-page02-shadow.svg" alt="Shadow of the basket of fruits.">
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container-main">
+            <h1>Get The Freshest Fruit Salad Combo</h1>
+
+            <p>We deliver the best and the freshest fruit salad in town. Order for a combo today!!</p>
+
+            <button type="button" id="btn-continue">Let's Continue</button>
+        </div>
+    </main>
+
+    <script type="text/javascript">
+        document.getElementById("btn-continue").onclick = function () {
+            location.href = "page03.html";
+        }
+    </script>
+
+
 </body>
 
 </html>
