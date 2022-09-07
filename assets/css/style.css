@@ -114,19 +114,81 @@ body {
 
 .container-main-form input {
     border-radius: 1.5rem;
-    background-color: #F7F5F5;    
+    background-color: #F7F5F5;
     margin-top: 1.5vh;
     border: none;
     cursor: pointer;
     padding: 3.2vh 25vw;
 }
+
 #btn-start {
-    
+
     padding: 2.5vh 25vw;
 }
 
-
 /*Page 04*/
+.container-header {
+    display: flex;
+    margin-bottom: 9vh;
+}
+
+.container-header h1 {
+    font-weight: 100;
+    font-size: 1.4rem;
+    color: #27214D;
+}
+
+.welcome img,
+.welcome h1 {
+    float: left;
+    display: inline;
+}
+
+.welcome img {
+
+    margin: 5.9vh 5vw 0 11vw;
+}
+
+.welcome h1 {
+    margin-top: 6.2vh;
+
+
+}
+
+.basket-circle {
+    margin-top: 4vh;
+    text-align: center;
+    padding: 1.2vh;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 2.5rem;
+    cursor: pointer;
+    position: absolute;
+    left: 80%;
+
+}
+
+
+
+.search input {
+    display: inline;
+    background-color: #F7F5F5;
+    border-radius: 1.5rem;
+    margin: 6vh 10vw 0vw 3vw;
+    text-align: center;
+    padding: 2.5rem;
+    border: solid 1px #F7F5F5;
+    font-size: 1.4rem;
+    width: 20rem;
+
+}
+
+.search .searcher {
+    margin-left: 90vw;
+}
+#searcher-lupa {
+    margin-left: 5vw;
+}
+
 /*Page 05*/
 
 
