@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-     <!--                  Google Fonts                -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-     <!-- -------------------------------------------- -->
+    <!--                  Google Fonts                -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- -------------------------------------------- -->
 
     <!--                 Estilização                -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -21,12 +21,36 @@
 
 <body>
 
-    <h1> Welcome, <span id="value-fName"></span>!</h1>
+    <header>
+        <div class="container-header">
 
+            <img src="assets/images/vectors/two-lines.svg" alt="Lines for decoration inside the header.">
+
+            <h1> Welcome, <span id="value-fName"></span>.</h1>
+
+            <div class="basket-circle">
+                <img src="assets/images/vectors/basket.svg" alt="A basket illustration.">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-search">
+            <form>
+                <img src="assets/images/vectors/magnifying-glasses.svg" alt="Search symbols.">
+            </form>
+            <img src="assets/images/vectors/search-vector.svg" alt="Search symbols.">
+        </div>
+    </main>
+
+
+
+    <!--                JavaScript                -->
     <script>
         var firstName = document.getElementById("value-fName");
         firstName.textContent = localStorage.getItem("valuefName");
     </script>
+    <!-- -------------------------------------------->
 </body>
 
 </html>
