@@ -4,4 +4,18 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
 }
+
+.logo {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+
+
+/*          Media Queries             */
+
+/*------------------------------------*/
